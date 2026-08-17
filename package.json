@@ -5,12 +5,18 @@
   "type": "module",
   "main": "./lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "cordis.patch.yml"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/xiaxingtianxia2-glitch/dsh-auto-exit"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   },
   "peerDependencies": {
     "cordis": ">=4.0.0-rc <5",
