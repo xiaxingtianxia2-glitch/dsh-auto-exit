@@ -1,0 +1,20 @@
+{
+  "name": "dsh-auto-exit",
+  "version": "0.0.1",
+  "description": "Exit the DSH CLI process automatically when the Web UI closes (equivalent to Ctrl+C). DSH plugin: 关闭 Web UI 自动退出 CLI 进程.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaxingtianxia2-glitch/dsh-auto-exit"
+  },
+  "peerDependencies": {
+    "cordis": ">=4.0.0-rc <5",
+    "schemastery": "^3.18.0",
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc <2"
+  }
+}
