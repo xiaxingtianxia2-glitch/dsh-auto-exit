@@ -1,0 +1,6 @@
+# dsh-auto-exit bundle 组合层：向 profile 组合挂载插件本体（Node half）。
+# bundle 形态（声明 dsh.bundle.patch）经 `dsh plugin --profile web add` 安装，
+# 进入 profile 层栈（dsh.profile.bundles），重启 web 后生效。
+- insert:
+    - id: dsh-auto-exit
+      name: dsh-auto-exit
